@@ -9,7 +9,8 @@
     "lint": "yarn eslint src",
     "start": "webpack-serve --config example/webpack.config.js --content example/dist",
     "build": "babel src/ -d lib/",
-    "prepublish": "yarn build"
+    "prepublish": "yarn build",
+    "prepare": "yarn build"
   },
   "dependencies": {
     "@domoinc/slate-edit-table": "^0.22.2",
